@@ -1,0 +1,23 @@
+Here are few  git basic commands to get started with.
+
+Assuming you have already created a repo on the GitHub, now you will have to launch a command line interface in the desired folder and perform the following command to clone your repo:
+	-> git clone <your-repo-url>
+After cloning is done, you will now have to initial stuff or create new directories or create new files 
+	-> create a directory in windows shell 
+		mkdir <directory-name>
+	-> create a file 
+		echo <text-to-be-included in the file> your-file-name.txt
+	-> launch a txt file from cmd 
+		notepad your-file-name.txt //caution this file will be saved on the directory you are currently working in 
+
+After making the initial changes simply add the changes to the repo 
+	-> git add . // to save all the current changes to the files 
+and then, commit the changes you have made
+	-> git commit -m "Your Message for description"
+after which if you have git accounts set up at your pc you will simply have to push the changes from this local repo to the repo hosted on GitHub 
+	-> git push origin main
+
+Thats all for setting up the repository, now all you have to do is add content and be consistent. 
+Happy Learning.
+
+
